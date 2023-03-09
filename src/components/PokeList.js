@@ -27,7 +27,6 @@ function PokeList() {
         getAllPokemons();
     }, []);
 
-
     return (
         <div className="app-container">
             <div className="pokemon-container">

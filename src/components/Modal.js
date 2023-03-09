@@ -1,5 +1,5 @@
 import pokeball from "../images/pokeball.png"
-import bg from "../images/bg.jpg"
+import bg from "../images/bg.webp"
 
 function Modal({ onClick, id, name, image, type, height, weight, stats, statsName }) {
     return (
