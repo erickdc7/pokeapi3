@@ -35,7 +35,7 @@ function PokeList() {
                     {
                         allPokemons.map((pokemonStats) => (
                             <PokemonCard
-                                key={pokemonStats.id}
+                                key={pokemonStats.name}
                                 id={pokemonStats.id.toString().padStart(3, "0")}
                                 image={pokemonStats.sprites.other["official-artwork"].front_default}
                                 name={pokemonStats.name.replace(/^./, (str) => str.toUpperCase())}
@@ -43,7 +43,7 @@ function PokeList() {
                                 weight={pokemonStats.weight}
                                 height={pokemonStats.height}
                                 stats={pokemonStats.stats.map((stat) => stat.base_stat).slice(0, 3)}
-
+                                statsName={pokemonStats.stats.map((stat) => stat.stat.name).slice(0, 3)}
                             />
                         ))
                     }
