@@ -1,5 +1,5 @@
 # PokeAPI 03
-This design is inspired by this [video](https://youtu.be/E-T5R_GhT-k), which belongs to [TA Coding](https://www.youtube.com/@tacoding).
+This design is inspired by the work of [TA Coding](https://www.youtube.com/@tacoding). Click [here](https://youtu.be/E-T5R_GhT-k) to watch the video.
 
 ## Technologies
 This web page was made with the following technologies:
